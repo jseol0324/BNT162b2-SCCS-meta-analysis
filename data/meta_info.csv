@@ -1,0 +1,6 @@
+study,continent,risk_window,window_days,dose,year
+AbRahman 2024,Asia,<=21d,21,booster,2024
+Xu 2024,North America,>21d,42,booster,2024
+Chui 2022,Asia,>21d,28,primary,2022
+Ghebremichael 2022,Europe,<=21d,14,primary,2022
+HippisleyCox 2021,Europe,>21d,28,primary,2021
