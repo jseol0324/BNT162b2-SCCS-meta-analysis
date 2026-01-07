@@ -5,7 +5,7 @@ following BNT162b2 vaccination using self-controlled case series (SCCS) studies.
 
 ## Reproducibility
 
-All analyses were conducted in R (version ≥ 4.2.0) using the metafor package.
+All analyses were conducted in R (version 4.4.1) using the metafor package (version 4.8.0).
 Study-level data and analysis scripts are publicly available in this repository.
 
 Study-level data are provided in the `data/` directory:
