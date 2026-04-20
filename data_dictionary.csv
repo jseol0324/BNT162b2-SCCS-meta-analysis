@@ -1,0 +1,20 @@
+variable,type,description,values_or_units
+study_id,character,Unique study identifier,e.g. HC2021
+author,character,First author and et al. with year,—
+year,integer,Publication year,—
+country,character,Country where study was conducted,—
+continent,character,Continent of study,Europe / Asia / North America
+events,integer,Total number of stroke events reported; NA if not disclosed,count
+yi,numeric,Log-transformed pooled within-study IRR used in meta-analysis,log(IRR)
+sei,numeric,Standard error of yi; derived from 95% CI as (log(UCL)-log(LCL))/(2*1.96) or from inverse-variance pooling of stratum-specific estimates,—
+IRR,numeric,Incidence rate ratio on the original scale,—
+LCL_95,numeric,Lower bound of 95% confidence interval for IRR,—
+UCL_95,numeric,Upper bound of 95% confidence interval for IRR,—
+window_days,integer,Length of post-vaccination risk window in days,days
+risk_window_cat,character,Categorical classification of risk window length,<=21d / >21d
+dose_cat,character,Dose coverage of the study; primary = doses 1-2 only; booster = includes dose >=3,primary / booster
+sccs_method,character,SCCS methodological variant used,Standard / Modified / Robust
+sccs_binary,character,Binary grouping of SCCS variant for subgroup analysis,Standard / Non-standard
+outcome_type,character,Stroke outcome examined; Both = ischemic and hemorrhagic combined; IS = ischemic only; HS = hemorrhagic only,Both / IS / HS
+baseline_type,character,Type of baseline (reference) period used in the SCCS analysis,Post-vax / Mixed / Pre-vax
+min_age,integer,Minimum age of study participants in years,years

@@ -1,0 +1,9 @@
+study_id,author,year,country,continent,events,yi,sei,IRR,LCL_95,UCL_95,window_days,risk_window_cat,dose_cat,sccs_method,sccs_binary,outcome_type,baseline_type,min_age
+HC2021,Hippisley-Cox et al.,2021,UK,Europe,6439,0.04078,0.01964,1.04,1.00,1.08,28,>21d,primary,Standard,Standard,Both,Post-vax,16
+Chui2022,Chui et al.,2022,Hong Kong,Asia,117,0.51503,0.18004,1.67,1.18,2.38,27,>21d,primary,Modified,Non-standard,HS,Post-vax,16
+Jabagi2022,Jabagi et al.,2022,France,Europe,17014,-0.09431,0.02707,0.91,0.87,0.96,14,<=21d,primary,Modified,Non-standard,Both,Mixed,75
+Botton2022,Botton et al.,2022,France,Europe,28717,-0.05129,0.02701,0.95,0.91,1.01,21,<=21d,primary,Modified,Non-standard,Both,Mixed,18
+AbRahman2024,Ab Rahman et al.,2024,Malaysia,Asia,74700,-0.07095,0.02842,0.93,0.88,0.98,21,<=21d,booster,Standard,Standard,Both,Post-vax,18
+Xu2024,Xu et al.,2024,USA,North America,1057,-0.03046,0.08941,0.97,0.81,1.16,42,>21d,booster,Modified,Non-standard,IS,Post-vax,12
+Makkar2025,Makkar et al.,2025,USA,North America,119275,-0.22314,0.13380,0.80,0.62,1.04,28,>21d,booster,Robust,Non-standard,IS,Post-vax,16
+Salmaggi2025,Salmaggi et al.,2025,Italy,Europe,NA,-0.03046,0.03340,0.97,0.91,1.04,28,>21d,booster,Modified,Non-standard,Both,Pre-vax,12
